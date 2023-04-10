@@ -1,0 +1,190 @@
+:root{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container{
+    padding: 4rem 1.3rem 5rem 1.3rem;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1__texts{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section1__title{
+    color: var(--Very-Dark-Magenta);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.section1__paragraph{
+    color: var(--Dark-Grayish-Magenta);
+    font-size: 1.1rem;
+}
+
+.section1__content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    gap: 15px;
+}
+
+.section1__badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsla(333, 80%, 67%, 0.3);
+    border-radius: 10px;
+    padding: .7rem 0;
+    gap: .4rem;
+}
+
+.section1__text{
+    color: var(--Very-Dark-Magenta);
+    font-weight: bold;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.section2__card{
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 10px;
+    padding: 2rem 1.5rem;
+}
+
+.section2__profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.4rem;
+    gap: 1rem;
+}
+
+.section2__img{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.section2__name{
+    color: var(--White);
+    font-weight: 700;
+    margin-bottom: .3rem;
+}
+
+.section2__verified{
+    color: var(--Soft-Pink);
+    font-weight: 500;
+}
+
+.section2__paragraph{
+    color: var(--White);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* Escritorio pequeño / tablet
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+} */
+
+@media (min-width: 900px){
+    .container{
+        padding: 8rem 10rem 8rem 10rem;
+    }
+    .section1{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 4.5rem;
+    }
+    .section1__texts{
+        width: 50%;
+        margin-bottom: 0;
+        padding-right: 9rem;
+    }
+    .section1__title{
+        text-align: start;
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+    .section1__paragraph{
+        text-align: start;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .section1__content{
+        justify-content: center;
+        width: 50%;
+        margin-bottom: 0;
+    }
+    .section__flex2{
+        display: flex;
+        justify-content: center;
+    }
+    .section__flex3{
+        display: flex;
+        justify-content: end;
+    }
+    .section1__badge{
+        width: 80%;
+        flex-direction: row;
+        justify-content: left;
+        padding: 1.2rem 0 1.2rem 2.4rem;
+        border-radius: 7px;
+        gap: 2.2rem;
+    }
+    .section2{
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    .section2__card{
+        height: 255px;
+        border-radius: 7px;
+        padding: 2.5rem 1.9rem;
+    }
+    .section2__profile{
+        margin-bottom: 2rem;
+        gap: 1.7rem;
+    }
+    .section2__name{
+        font-size: 1.2rem;
+    }
+    .section2__verified{
+        font-size: 1.2rem;
+    }
+    .section2__paragraph{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        line-height: 1.4rem;
+    }
+    .section2__card--2{
+        margin-top: 1.4rem;
+    }
+    .section2__card--3{
+        margin-top: 2.8rem;
+    }
+}
