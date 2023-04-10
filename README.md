@@ -10,7 +10,7 @@ Este proyecto ha sido creado extraido de Frontend Mentor. Creado con HTML, CSS, 
 
 ## Ver ejemplo en vivo
 
-˜ [Enlace a Github Pages](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
+˜ [Enlace a Github Pages](https://cristianbarrios983.github.io/social-proof-section/)
 
 ## Instalacion
 Este proyecto no necesita instalacion. Simplemente haz doble clic en la carpeta y abre el archivo index.html
